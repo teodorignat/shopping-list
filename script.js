@@ -8,7 +8,7 @@ function addItem(e) {
   const newItem = itemInput.value;
 
   // Validate Input
-  if (newItem.value === '') {
+  if (newItem === '') {
     alert('Please add an item:');
     return;
   }
